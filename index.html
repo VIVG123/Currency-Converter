@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="./public/style.css">
+    <title>Currency Converter</title>
+</head>
+<body>
+    <div class = "heading">Currency Converter</div>
+    <div class ="curr1">
+    <select id="base_curr" class = "curr1" >
+        <option value="USD">USD</option>
+        <option value="INR" selected>INR</option>
+        <option value="EUR">EUR</option>
+    </select>
+    <input type="number" class = "base-value" placeholder="Enter amount to convert"> 
+    </div>
+
+    <div class = "curr2">
+    <select id="base_curr2" class = "curr2" >
+        <option value="USD">USD</option>
+        <option value="INR" selected>INR</option>
+        <option value="EUR">EUR</option>
+    </select>
+    <input  class = "converted-value" placeholder="Converted value"> 
+    </div>
+
+    <button class = "btn">Convert</button>
+    <script src = "./public/exchange.js"></script>
+    </body>
+</body>
+</html>
