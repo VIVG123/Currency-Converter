@@ -2,7 +2,7 @@
 {
     box-sizing: border-box ;
     text-align: center ;
-    font-size: 30px     ;
+    font-size: 15px     ;
     color: darkblue ;
     height: 50px ;
     
@@ -11,6 +11,7 @@
 option{
     height: 50px ;
     margin-top: 10px ;
+    width: 10% ;
 }
 
 
